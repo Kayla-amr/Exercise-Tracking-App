@@ -51,10 +51,6 @@ export default {
 
       const id = addId + 1
 
-      const newExercises = {
-        id,
-        ...exercise
-      }
 
       this.exercises = [...this.exercises, exercise]
     }
